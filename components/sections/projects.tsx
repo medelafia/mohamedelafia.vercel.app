@@ -18,7 +18,7 @@ import {
 
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
-import { categories, Project, ProjectCategory, projects } from "@/data/projects"
+import { categories, Project, ProjectCategory, projects } from "@/data/projects_data"
 
 /* ============================================================
    PROJECT IMAGE SLIDER

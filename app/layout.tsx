@@ -51,6 +51,11 @@ export const metadata: Metadata = {
     "Python",
     "Java",
     "TypeScript",
+    "Informatique", 
+    "Enseignement", 
+    "College", 
+    "Essaouira", 
+    "Bab taza"
   ],
 
   authors: [
