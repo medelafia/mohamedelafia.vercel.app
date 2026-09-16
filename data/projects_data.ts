@@ -68,11 +68,13 @@ export const projects: Project[] = [
     category: ["ai", "fullstack"],
     github:
       "https://github.com/medelafia/Movie-recommendation-system",
+    demo: "https://moviemood-git-main-mohamedelafias-projects.vercel.app" ,
     images: [
       "/projects/movie_recommendation/1.png",
       "/projects/movie_recommendation/2.png",
       "/projects/movie_recommendation/3.png",
-      "/projects/movie_recommendation/4.png"
+      "/projects/movie_recommendation/4.png", 
+      "/projects/movie_recommendation/5.png", 
     ],
     featured: true,
   },
