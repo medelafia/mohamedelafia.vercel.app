@@ -91,10 +91,7 @@ const projects: Project[] = [
       "/projects/movie_recommendation/1.png",
       "/projects/movie_recommendation/2.png",
       "/projects/movie_recommendation/3.png",
-      "/projects/movie_recommendation/4.png",
-      "/projects/movie_recommendation/5.png",
-      "/projects/movie_recommendation/6.png",
-      "/projects/movie_recommendation/7.png",
+      "/projects/movie_recommendation/4.png"
     ],
     featured: true,
   },
