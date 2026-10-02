@@ -78,7 +78,38 @@ export const projects: Project[] = [
     ],
     featured: true,
   },
-
+{
+    title: "Doc-Assist",
+    featured: true,
+    description:
+      "Doc-Assist is an AI-powered document assistant that lets you upload PDFs and chat with them using RAG.", 
+    longDescription:
+      "DocAssist is an AI-powered document assistant that turns your PDFs into a conversation. Upload documents, ask questions in natural language, and get precise, citation-grounded answers — built with Spring Boot, React, Spring AI, Redis vector search, and Cloudflare R2.", 
+    techStack: [
+      "React.js",
+      "Spring boot" , 
+      "Spring security" ,
+      "JWT", 
+      "OAuth2 Google", 
+      "Cloudflare R2",
+      "Spring AI", 
+      "Redis", 
+      "PostgreSQL",
+      "AI",
+      "LLMs" , 
+      "OpenRouter"
+    ],
+    category: ["fullstack", "ai", "backend" ],
+    github:
+      "https://github.com/medelafia/DocAssist",
+    demo : 
+      "https://doc-assist-ai.vercel.app",
+    images: [
+      "/projects/doc_assist/1.png",
+      "/projects/doc_assist/2.png",
+      "/projects/doc_assist/3.png"
+    ],
+  },
   {
     title: "Library Management System",
     description:
@@ -193,36 +224,6 @@ export const projects: Project[] = [
       "/projects/resumind/3.png",
       "/projects/resumind/4.png",
       "/projects/resumind/5.png",
-    ],
-  },{
-    title: "Doc-Assist",
-    description:
-      "Doc-Assist is an AI-powered document assistant that lets you upload PDFs and chat with them using RAG.", 
-    longDescription:
-      "DocAssist is an AI-powered document assistant that turns your PDFs into a conversation. Upload documents, ask questions in natural language, and get precise, citation-grounded answers — built with Spring Boot, React, Spring AI, Redis vector search, and Cloudflare R2.", 
-    techStack: [
-      "React.js",
-      "Spring boot" , 
-      "Spring security" ,
-      "JWT", 
-      "OAuth2 Google", 
-      "Cloudflare R2",
-      "Spring AI", 
-      "Redis", 
-      "PostgreSQL",
-      "AI",
-      "LLMs" , 
-      "OpenRouter"
-    ],
-    category: ["fullstack", "ai", "backend" ],
-    github:
-      "https://github.com/medelafia/DocAssist",
-    demo : 
-      "https://doc-assist-ai.vercel.app",
-    images: [
-      "/projects/doc_assist/1.png",
-      "/projects/doc_assist/2.png",
-      "/projects/doc_assist/3.png"
     ],
   },   {
     title: "AI-Diagno",
