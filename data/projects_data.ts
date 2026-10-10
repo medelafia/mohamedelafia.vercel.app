@@ -38,14 +38,7 @@ export const projects: Project[] = [
     category: ["ai", "devops"],
     github: "https://github.com/medelafia/ouma",
     images: [
-      "/projects/ouma/1.png",
-      "/projects/ouma/2.png",
-      "/projects/ouma/3.png",
-      "/projects/ouma/4.png",
-      "/projects/ouma/5.png",
-      "/projects/ouma/6.png",
-      "/projects/ouma/7.png",
-      "/projects/ouma/8.png",
+      "/projects/oumaGuard-poster.png",
     ],
     featured: true,
   },
@@ -67,16 +60,7 @@ export const projects: Project[] = [
       "",
     demo: "https://store-shopora.vercel.app" ,
     images: [
-      "/projects/shopora/shopora-1.png",
-      "/projects/shopora/shopora-2.png",
-      "/projects/shopora/shopora-3.png",
-      "/projects/shopora/shopora-4.png",
-      "/projects/shopora/shopora-5.png",
-      "/projects/shopora/shopora-6.png",
-      "/projects/shopora/shopora-7.png",
-      "/projects/shopora/shopora-8.png",
-      "/projects/shopora/shopora-9.png",   
-      "/projects/shopora/shopora-10.png"            
+      "/projects/shopora-poster.png"          
     ],
     featured: true,
   },
@@ -101,11 +85,7 @@ export const projects: Project[] = [
       "https://github.com/medelafia/Movie-recommendation-system",
     demo: "moviemood-sooty.vercel.app" ,
     images: [
-      "/projects/movie_recommendation/1.png",
-      "/projects/movie_recommendation/2.png",
-      "/projects/movie_recommendation/3.png",
-      "/projects/movie_recommendation/4.png", 
-      "/projects/movie_recommendation/5.png", 
+      "/projects/moviemood-poster.png",
     ],
     featured: true,
   },
@@ -158,7 +138,7 @@ export const projects: Project[] = [
     category: ["ai", "mobile"],
     github: "",
     images: [
-      "/projects/teacher-toolkit/poster.png",
+      "/projects/teacher-toolkit-poster.png",
     ],
     featured: true,
   },
@@ -249,11 +229,7 @@ export const projects: Project[] = [
     demo:
       "https://ugtm-portal.vercel.app",
     images: [
-      "/projects/ugtm_essaouira_portal/1.png",
-      "/projects/ugtm_essaouira_portal/2.png",
-      "/projects/ugtm_essaouira_portal/3.png",
-      "/projects/ugtm_essaouira_portal/4.png",
-      "/projects/ugtm_essaouira_portal/5.png",
+      "/projects/ugtm-poster.png"
     ],
   },
   {
