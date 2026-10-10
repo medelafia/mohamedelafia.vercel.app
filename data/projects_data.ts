@@ -204,11 +204,7 @@ export const projects: Project[] = [
     demo : 
       "https://hospital-management-system-lkgs.onrender.com",
     images: [
-      "/projects/hospital_management/1.png",
-      "/projects/hospital_management/2.png",
-      "/projects/hospital_management/3.png",
-      "/projects/hospital_management/4.png",
-      "/projects/hospital_management/5.png",
+      "/projects/hms-poster.png"
     ],
   },
 
@@ -247,11 +243,7 @@ export const projects: Project[] = [
       "https://github.com/medelafia/Resumind",
     demo: "https://gentle-sun-36389.puter.site" ,
     images: [
-      "/projects/resumind/1.png",
-      "/projects/resumind/2.png",
-      "/projects/resumind/3.png",
-      "/projects/resumind/4.png",
-      "/projects/resumind/5.png",
+      "/projects/resumind-poster.png"
     ],
   },   {
     title: "AI-Diagno",
@@ -272,9 +264,7 @@ export const projects: Project[] = [
     demo : 
       "https://ai-doctor-xi.vercel.app",
     images: [
-      "/projects/ai_diagno/1.png",
-      "/projects/ai_diagno/2.png",
-      "/projects/ai_diagno/3.png"
+      "/projects/ai-diagno-poster.png"
     ],
   }, 
   {
