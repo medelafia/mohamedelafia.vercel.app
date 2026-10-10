@@ -48,9 +48,39 @@ export const projects: Project[] = [
     ],
     featured: true,
   },
-
   {
-    title: "Movie Recommendation System",
+    title: "Shopora",
+    description:
+        "A modern electronics storefront with a full admin dashboard, real-time cart and wishlist, and a checkout flow built for cash-on-delivery.",
+    longDescription:
+      "Shopora is a full-stack e-commerce platform built with Next.js (App Router) and TypeScript, backed by PostgreSQL via Prisma and Supabase Storage for image uploads. It ships with a customer-facing storefront — product catalog with filters and sorting, category browsing, product detail pages with specs and reviews, cart, wishlist, and account dashboard — plus a complete admin panel for managing products, categories, coupons, orders, and customers. Authentication uses JWT sessions with role-based access, orders support a pending → processing → shipped → delivered lifecycle with stock restoration on cancellation, and coupons apply percentage or fixed discounts with optional usage limits and expiry windows. The UI is designed with a consistent green brand system, skeleton loading states, optimistic updates on cart and wishlist mutations, and accessible components throughout.",
+    techStack: [
+      "Next.js",
+      "Supabase",
+      "PostgreSQL",
+      "Prisma",
+      "JWT"
+    ],
+    category: ["fullstack"],
+    github:
+      "",
+    demo: "https://store-shopora.vercel.app" ,
+    images: [
+      "/projects/shopora/shopora-1.png",
+      "/projects/shopora/shopora-2.png",
+      "/projects/shopora/shopora-3.png",
+      "/projects/shopora/shopora-4.png",
+      "/projects/shopora/shopora-5.png",
+      "/projects/shopora/shopora-6.png",
+      "/projects/shopora/shopora-7.png",
+      "/projects/shopora/shopora-8.png",
+      "/projects/shopora/shopora-9.png",   
+      "/projects/shopora/shopora-10.png"            
+    ],
+    featured: true,
+  },
+  {
+    title: "MovieMood",
     description:
       "AI-powered recommendation engine with sentiment analysis and real-time personalization.",
     longDescription:
@@ -68,7 +98,7 @@ export const projects: Project[] = [
     category: ["ai", "fullstack"],
     github:
       "https://github.com/medelafia/Movie-recommendation-system",
-    demo: "https://moviemood-git-main-mohamedelafias-projects.vercel.app" ,
+    demo: "moviemood-sooty.vercel.app" ,
     images: [
       "/projects/movie_recommendation/1.png",
       "/projects/movie_recommendation/2.png",
