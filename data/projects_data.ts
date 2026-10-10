@@ -6,6 +6,7 @@ export type ProjectCategory =
   | "backend"
   | "fullstack"
   | "systems"
+  | "mobile"
 
 export interface Project {
   title: string
@@ -53,7 +54,7 @@ export const projects: Project[] = [
     description:
         "A modern electronics storefront with a full admin dashboard, real-time cart and wishlist, and a checkout flow built for cash-on-delivery.",
     longDescription:
-      "Shopora is a full-stack e-commerce platform built with Next.js (App Router) and TypeScript, backed by PostgreSQL via Prisma and Supabase Storage for image uploads. It ships with a customer-facing storefront — product catalog with filters and sorting, category browsing, product detail pages with specs and reviews, cart, wishlist, and account dashboard — plus a complete admin panel for managing products, categories, coupons, orders, and customers. Authentication uses JWT sessions with role-based access, orders support a pending → processing → shipped → delivered lifecycle with stock restoration on cancellation, and coupons apply percentage or fixed discounts with optional usage limits and expiry windows. The UI is designed with a consistent green brand system, skeleton loading states, optimistic updates on cart and wishlist mutations, and accessible components throughout.",
+      "Shopora is a full-stack e-commerce platform built with Next.js (App Router) and TypeScript, backed by PostgreSQL via Prisma and Supabase Storage for image uploads. It ships with a customer-facing storefront — product catalog with filters and sorting, category browsing, product detail pages with specs and reviews, cart, wishlist, and account dashboard — plus a complete admin panel for managing products, categories, coupons, orders, and customers.",
     techStack: [
       "Next.js",
       "Supabase",
@@ -108,7 +109,7 @@ export const projects: Project[] = [
     ],
     featured: true,
   },
-{
+  {
     title: "Doc-Assist",
     featured: true,
     description:
@@ -139,6 +140,27 @@ export const projects: Project[] = [
       "/projects/doc_assist/2.png",
       "/projects/doc_assist/3.png"
     ],
+  },
+  {
+    title: "Teacher Toolkit - AI-Powered Teaching Assistant",
+    description:
+      "An AI-powered educational platform that helps teachers create lessons, generate exercises, discover resources, and streamline teaching workflows.",
+    longDescription:
+      "Teacher Toolkit is an AI-powered educational platform designed to simplify lesson preparation and enhance teaching productivity. The application enables educators to generate structured lesson plans, personalized exercises, mind maps, worksheets, quizzes, and educational resources using artificial intelligence. It features an intelligent search engine for discovering relevant open educational resources, AI-powered resource evaluation, multilingual content generation in Arabic, French, and English, and a personal library for organizing generated materials.",
+    techStack: [
+      "Python",
+      "Groq",
+      "FastAPI",
+      "Flutter",
+      "PostgreSQL", 
+      "LangChain", 
+    ],
+    category: ["ai", "mobile"],
+    github: "",
+    images: [
+      "/projects/teacher-toolkit/poster.png",
+    ],
+    featured: true,
   },
   {
     title: "Library Management System",
@@ -176,7 +198,7 @@ export const projects: Project[] = [
       "Gyroscope",
       "Python",
     ],
-    category: ["fullstack"],
+    category: ["fullstack", "mobile"],
     github:
       "https://github.com/medelafia/fitness-tracker",
     images: [],
@@ -318,7 +340,7 @@ export const projects: Project[] = [
     category: ["backend", "systems"],
     github: "https://github.com/medelafia/c-http-server",
     images: [],
-  },
+  }
 ]
 
 export const categories: {
@@ -330,5 +352,6 @@ export const categories: {
   { value: "devops", label: "DevOps" },
   { value: "backend", label: "Backend" },
   { value: "fullstack", label: "Full Stack" },
-  { value : "systems" , label : "Systems"}
+  { value : "systems" , label : "Systems"},
+  { value : "mobile", label: "Mobile" }
 ]
