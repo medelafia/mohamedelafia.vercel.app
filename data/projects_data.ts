@@ -22,7 +22,7 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "OUMA - AI Monitoring & Predictive System",
+    title: "OumaGuard - AI Monitoring & Predictive System",
     description:
       "Incident prediction system for cloud-native applications using modern technologies.",
     longDescription:
@@ -83,7 +83,7 @@ export const projects: Project[] = [
     category: ["ai", "fullstack"],
     github:
       "https://github.com/medelafia/Movie-recommendation-system",
-    demo: "moviemood-sooty.vercel.app" ,
+    demo: "https://moviemood-sooty.vercel.app" ,
     images: [
       "/projects/moviemood-poster.png",
     ],
@@ -116,9 +116,7 @@ export const projects: Project[] = [
     demo : 
       "https://doc-assist-ai.vercel.app",
     images: [
-      "/projects/doc_assist/1.png",
-      "/projects/doc_assist/2.png",
-      "/projects/doc_assist/3.png"
+      "/projects/doc-assist-poster.png"
     ],
   },
   {
